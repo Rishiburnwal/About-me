@@ -1,3 +1,8 @@
+@if $enable-transitions {
+  @keyframes progress-bar-stripes {
+    50% { background-position-x: $progress-height; }
+  }
+}
 .animated-bg {
     background: linear-gradient(45deg, #ff0080, #8000ff);
     background-size: 200% 200%;
